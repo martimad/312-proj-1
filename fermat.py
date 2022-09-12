@@ -52,7 +52,7 @@ def miller_rabin(N, k):
     # You will need to implement this function and change the return value, which should be
     # either 'prime' or 'composite'.
     #
-    # To generate random values for a, you will most likley want to use
+    # To generate random values for 'a', you will most likely want to use
     # random.randint(low,hi) which gives a random integer between low and
     #  hi, inclusive.
     if fermat(N, k) == 'prime':
