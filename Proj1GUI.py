@@ -13,10 +13,10 @@ if PYQT_VER == 'PYQT5':
 	from PyQt5.QtGui import QIcon
 	from PyQt5.QtWidgets import QHBoxLayout, QVBoxLayout
 	from PyQt5.QtWidgets import QLabel, QPushButton, QLineEdit
-elif PYQT_VER == 'PYQT4':
-	from PyQt4.QtGui import QApplication, QWidget
-	from PyQt4.QtGui import QHBoxLayout, QVBoxLayout
-	from PyQt4.QtGui import QIcon, QLabel, QPushButton, QLineEdit
+# elif PYQT_VER == 'PYQT4':
+# 	from PyQt4.QtGui import QApplication, QWidget
+# 	from PyQt4.QtGui import QHBoxLayout, QVBoxLayout
+# 	from PyQt4.QtGui import QIcon, QLabel, QPushButton, QLineEdit
 else:
 	raise Exception('Unsupported Version of PyQt: {}'.format(PYQT_VER))
 
